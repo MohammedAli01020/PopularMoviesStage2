@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue= "@bool/pref_most_popular_default"
+        android:title="@string/pref_most_popular_title"
+        android:key="@string/pref_most_popular_key" />
+
+    <CheckBoxPreference
+        android:defaultValue= "@bool/pref_most_voted_default"
+        android:title="@string/pref_most_voted_title"
+        android:key="@string/pref_most_voted_key" />
+
+    <CheckBoxPreference
+        android:defaultValue= "@bool/pref_liked_default"
+        android:title="@string/pref_liked_title"
+        android:key="@string/pref_liked_key" />
+</PreferenceScreen>
